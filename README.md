@@ -1,2 +1,2 @@
 # portfolio
-Portfolio artistique de Mila
+Portfolio artistique de Mila.
