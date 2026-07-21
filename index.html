@@ -1,82 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mila - Portfolio artistique</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: white;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            background: linear-gradient(135deg, #1a1a1a, #333);
-        }
+<title>Mila - Portfolio artistique</title>
 
-        h1 {
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
+<style>
 
-        h2 {
-            color: #e8c07d;
-        }
+* {
+    box-sizing: border-box;
+}
 
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: #080808;
+    color: white;
+}
 
-        .card {
-            background: #222;
-            padding: 25px;
-            border-radius: 15px;
-            margin: 20px 0;
-        }
+header {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.9)),
+    url("https://images.unsplash.com/photo-1485846234645-a62644f84728");
+    background-size: cover;
+    background-position: center;
+}
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #000;
-        }
+h1 {
+    font-size: 80px;
+    letter-spacing: 8px;
+    margin: 0;
+    color: #e8c07d;
+}
 
-        .gold {
-            color: #e8c07d;
-        }
-    </style>
+header h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+
+.card {
+    background: #151515;
+    border: 1px solid #333;
+    padding: 35px;
+    margin: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(232,192,125,0.15);
+}
+
+
+h3 {
+    color: #e8c07d;
+    font-size: 28px;
+}
+
+
+p {
+    line-height: 1.8;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    color: #e8c07d;
+}
+
+</style>
+
 </head>
+
 
 <body>
 
+
 <header>
-    <h1>Mila</h1>
-    <h2>Portfolio artistique</h2>
-    <p>Jeune comédienne passionnée par le cinéma et la création.</p>
+
+<h1>Mila</h1>
+
+<h2>Portfolio artistique</h2>
+
+<p>
+Jeune comédienne passionnée par le cinéma,
+les séries et la création d'histoires.
+</p>
+
 </header>
+
 
 
 <section>
 
+
 <div class="card">
-<h2>À propos de moi</h2>
+
+<h3>À propos de moi</h3>
 
 <p>
 Je m'appelle Mila et je suis passionnée par le monde du cinéma,
-des séries et du théâtre. J'aime interpréter des personnages,
-raconter des histoires et découvrir de nouveaux univers artistiques.
+du théâtre et de l'interprétation.
+J'aime donner vie à des personnages, transmettre des émotions
+et découvrir de nouveaux univers artistiques.
 </p>
 
 </div>
 
 
+
 <div class="card">
-<h2>Mon univers</h2>
+
+<h3>Mon univers</h3>
 
 <p>
 🎬 Cinéma<br>
@@ -88,22 +146,29 @@ raconter des histoires et découvrir de nouveaux univers artistiques.
 </div>
 
 
+
 <div class="card">
-<h2>Objectif</h2>
+
+<h3>Mon objectif</h3>
 
 <p>
-Mon rêve est de devenir actrice et de participer à des projets
-qui permettent de transmettre des émotions et de créer des souvenirs.
+Mon rêve est de devenir actrice et de participer
+à des projets qui racontent des histoires fortes
+et qui créent des émotions.
 </p>
 
 </div>
 
 
+
 </section>
 
 
+
 <footer>
-<p class="gold">Portfolio artistique de Mila © 2026</p>
+
+Portfolio artistique de Mila © 2026
+
 </footer>
 
 
